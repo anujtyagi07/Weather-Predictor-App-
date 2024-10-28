@@ -1,57 +1,34 @@
-# WeatherVista - Interactive Weather App
+Here's an updated README that includes information on data fetching:
+
+---
+
+# SkyCast - Interactive Weather App
 
 ## Overview
 
-Welcome to WeatherVista, a cutting-edge and user-friendly weather prediction app. WeatherVista not only provides accurate weather forecasts but also offers an engaging and intuitive user experience.
+Welcome to SkyCast, a modern and intuitive weather forecasting app. SkyCast offers precise weather updates alongside a user-friendly experience, keeping you informed and prepared for any weather conditions.
 
-### Features:
+### Features
 
-- **Responsive Design:** Enjoy a seamless experience across various devices with WeatherVista's responsive UI.
-- **Dynamic Weather Icons:** Visualize real-time weather conditions with dynamic icons for a more immersive experience.
-- **Hourly and Weekly Forecasts:** Plan your schedule confidently with detailed hourly and weekly forecasts.
-- **Today's Highlights:** Stay informed about key weather highlights, including UV Index, Wind Status, Sunrise & Sunset, Humidity, Visibility, and Air Quality.
-- **Search Functionality:** Easily search for weather updates in any location globally.
+- **Responsive Design:** SkyCast provides a smooth experience on any device with its fully responsive design.
+- **Dynamic Weather Icons:** Real-time, dynamic icons make weather conditions easy to visualize and understand at a glance.
+- **Hourly and Weekly Forecasts:** Access detailed hourly and weekly forecasts to plan ahead with confidence.
+- **Today’s Highlights:** Get insights into essential weather metrics like UV Index, Wind Speed, Sunrise & Sunset, Humidity, Visibility, and Air Quality.
+- **Global Search Functionality:** Easily search for and view the weather in any location around the world.
 
-## Experience WeatherVista
+### Data Source
 
-🌦️ **Explore the WeatherVista Demo: [Click Here](https://wasimtikki120.github.io/WeatherVista-Interactive-Weather-App/)** 🌈
-
-## Screenshots
-
-![WeatherVista Screenshot 1](images/WeatherVista%20-%20Interactive%20Weather%20App%201.png)
-![WeatherVista Screenshot 2](images/WeatherVista%20-%20Interactive%20Weather%20App%202.png)
-![WeatherVista Screenshot 3](images/WeatherVista%20-%20Interactive%20Weather%20App%203.png)
-
-## Getting Started
-
-1. Clone the repository: `git clone https://github.com/wasimtikki120/WeatherVista-Interactive-Weather-App.git`
-2. Open `index.html` in your preferred browser to launch the app.
-
-## Usage
-
-- Enter a location in the search bar to get the current weather details for that area.
-- Switch between hourly and weekly forecasts for detailed weather information.
-- Explore the highlight cards to learn more about today's weather insights.
+SkyCast fetches real-time weather data from the [Visual Crossing Weather API](https://www.visualcrossing.com/) using the following endpoint:
 
 
-## License
+https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${city}?unitGroup=metric&key=YOUR_API_KEY&contentType=json
+```
 
-WeatherVista is licensed under the [MIT License](LICENSE.md).[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-Feel free to customize and use it in your projects. 
-
+The API provides accurate and up-to-date weather information for cities worldwide, including metrics for temperature, precipitation, wind, and more.
 
 ## Author
 
-[Mohammad Wasim Tikki](https://github.com/wasimtikki120)
+Developed by Anuj Tyagi.
 
-## Contribution
+---
 
-Contributions are welcome! Please check our [Contribution Guidelines](CONTRIBUTING.md).
-
-## Support
-
-If you encounter any issues or have suggestions, [open an issue](https://github.com/wasimtikki120/WeatherVista-Interactive-Weather-App/issues).
-
-## About
-
-WeatherVista is the result of a passion for creating user-friendly applications that empower individuals to make informed decisions. Inspired by a love for technology and the desire to simplify weather information, Mohammad Wasim Tikki set out to develop a weather app that seamlessly integrates accuracy with an engaging user experience. Join us in exploring the world of WeatherVista!
