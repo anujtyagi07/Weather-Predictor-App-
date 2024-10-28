@@ -22,7 +22,6 @@ SkyCast fetches real-time weather data from the [Visual Crossing Weather API](ht
 
 
 https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${city}?unitGroup=metric&key=YOUR_API_KEY&contentType=json
-```
 
 The API provides accurate and up-to-date weather information for cities worldwide, including metrics for temperature, precipitation, wind, and more.
 
@@ -31,4 +30,5 @@ The API provides accurate and up-to-date weather information for cities worldwid
 Developed by Anuj Tyagi.
 
 ---
+Live at :  https://anujtyagi07.github.io/Weather-Predictor-App-/
 
